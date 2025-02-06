@@ -28,11 +28,11 @@ int main() {
 
     while (getchar() != '\n');
 
-    printf("Digite o PIB dessa cidade: \n");
+    printf("Digite em R$ o PIB dessa cidade: \n");
     scanf("%f", &PIB);
 
     while (getchar() != '\n');
-    
+
     printf("Digite o número de pontos turísticos dessa cidade: \n");
     scanf("%d", &pontos);
 
@@ -40,7 +40,7 @@ int main() {
     printf("Nome da cidade: %s\n", nome);
     printf("População: %d\n", populacao);
     printf("Área (KM²): %0.2f\n", area);
-    printf("PIB: %0.2f\n", PIB);
+    printf("PIB (R$): %0.2f\n", PIB);
     printf("Número de pontos turísticos: %d\n", pontos);
 
 
