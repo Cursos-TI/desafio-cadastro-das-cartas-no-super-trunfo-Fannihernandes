@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char Estado[2]
+    char Estado[2];
     char codigocidade[4];
     char nomecidade[20];
     int populacao;
@@ -19,11 +19,11 @@ int main() {
 
       //Pedir o código da cidade;
     printf("Digite o código da cidade: \n");
-    scanf("%s", &codigocidade);
+    scanf(" %s", &codigocidade);
 
       //Pedir nome da cidade;
     printf("Digite o nome da cidade: \n");
-    scanf("%s", &nomecidade);
+    scanf(" %s", &nomecidade);
 
       //Pedir a população da cidade;
     printf("Digite a população dessa cidade: \n");
