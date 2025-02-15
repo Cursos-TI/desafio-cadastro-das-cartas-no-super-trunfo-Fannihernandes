@@ -5,11 +5,11 @@ int main() {
     char codigocidade[4];
     char nomecidade[20];
     int populacao;
-    float area;
-    float PIB; 
+    long float area;
+    long float PIB; 
     int numerodepontosturisticos;
-    float densidadepopulacional;
-    float PIBpercapta;
+    long float densidadepopulacional;
+    long float PIBpercapta;
 
     printf("***Super Trunfo***\n"); 
 
@@ -31,12 +31,12 @@ int main() {
 
       //Pedir a área da cidade em Km²;
     printf("Digite a área dessa cidade em KM²: \n");
-    scanf(" %f", &area);
+    scanf(" %lf", &area);
 
 
       //Pedir o PIB da cidade em R$;
     printf("Digite em R$ o PIB dessa cidade: \n");
-    scanf(" %f", &PIB);
+    scanf(" %lf", &PIB);
 
       //Pedir o número de pontos turísticos da cidade;
     printf("Digite o número de pontos turísticos dessa cidade: \n");
@@ -46,23 +46,17 @@ int main() {
     printf("Código da cidade: %s\n", codigocidade);
     printf("Nome da cidade: %s\n", nomecidade);
     printf("População: %d\n", populacao);
-    printf("Área (KM²): %.2f\n", area);
-    printf("PIB (R$): %.2f\n", PIB);
+    printf("Área (KM²): %.2lf\n", area);
+    printf("PIB (R$): %.2lf\n", PIB);
     printf("Número de pontos turísticos: %d\n", numerodepontosturisticos);
 
       //Calcular a densidade populacional: população dividida pela área; 
     densidadepopulacional = (float) populacao / area;
-    printf("Densidade Populacional: %.2f\n", densidadepopulacional);
+    printf("Densidade Populacional: %.2lf\n", densidadepopulacional);
 
       //Calcular PIB per capta: PIB total divido pela população;
     PIBpercapta = (float) PIB / populacao;
-    printf("PIB per capta: %.2f\n", PIBpercapta);
-
-
-
-
-
-
+    printf("PIB per capta: %.2lf\n", PIBpercapta);
 
 
 
