@@ -10,6 +10,8 @@ int main() {
     int numerodepontosturisticos;
     float densidadepopulacional;
     float PIBpercapta;
+    float SuperPoder;
+    int resultado;
 
     printf ("***Carta 1***\n");
 
@@ -59,6 +61,10 @@ int main() {
     PIBpercapta = (float) PIB / populacao;
     printf("PIB per capta: %.2f reais\n", PIBpercapta);
 
+      //Calcular Super Poder: população + área + PIB + PIB per capta + densidade populacional invertida (1/densidade pop) + nº pontos turísticos;
+    SuperPoder = (float) populacao + area + PIB + PIBpercapta + (1/ densidadepopulacional) + numerodepontosturisticos;
+    printf ("Super Poder: %.3f\n", SuperPoder);
+
 
     printf ("***Carta 2***\n");
 
@@ -107,6 +113,14 @@ int main() {
     PIBpercapta = (float) PIB / populacao;
     printf("PIB per capta: %.2f reais\n", PIBpercapta);
     
+      //Calcular Super Poder: população + área + PIB + PIB per capta + densidade populacional invertida (1/densidade pop) + nº pontos turísticos;
+    SuperPoder = (float) populacao + area + PIB + PIBpercapta + (1/ densidadepopulacional) + numerodepontosturisticos;
+    printf ("Super Poder: %.3f\n", SuperPoder);
+
+
+    printf ("Comparação das Cartas:\n");
+    
+
 
 
     return 0;
