@@ -53,11 +53,11 @@ int main() {
 
       //Calcular a densidade populacional: população dividida pela área; 
     densidadepopulacional = (float) populacao / area;
-    printf("Densidade Populacional: %.2f\n", densidadepopulacional);
+    printf("Densidade Populacional: %.2f hab/km²\n", densidadepopulacional);
 
       //Calcular PIB per capta: PIB total divido pela população;
     PIBpercapta = (float) PIB / populacao;
-    printf("PIB per capta: %.2f\n", PIBpercapta);
+    printf("PIB per capta: %.2f reais\n", PIBpercapta);
 
 
     printf ("***Carta 2***\n");
@@ -101,11 +101,11 @@ int main() {
 
       //Calcular a densidade populacional: população dividida pela área; 
     densidadepopulacional = (float) populacao / area;
-    printf("Densidade Populacional: %.2f\n", densidadepopulacional);
+    printf("Densidade Populacional: %.2f hab/km²\n", densidadepopulacional);
 
       //Calcular PIB per capta: PIB total divido pela população;
     PIBpercapta = (float) PIB / populacao;
-    printf("PIB per capta: %.2f\n", PIBpercapta);
+    printf("PIB per capta: %.2f reais\n", PIBpercapta);
     
 
 
