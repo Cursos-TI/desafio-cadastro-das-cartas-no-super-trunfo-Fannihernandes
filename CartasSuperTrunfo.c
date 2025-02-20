@@ -119,13 +119,19 @@ int main() {
 
 
     printf ("Comparação das Cartas:\n");
-
+      //Comparar a população da carta 1 e carta 2;
     printf("Resultado População Carta 1 > População Carta 2: %d\n", populacao1 > populacao2);
+      //Comparar a área da carta 1 e carta 2;
     printf("Resultado Área Carta 1 > População Carta 2: %d\n", area1 > area2);
+      //Comparar o PIB da carta 1 e carta 2;
     printf("Resultado PIB Carta 1 > PIB Carta 2: %d\n", PIB1 > PIB2);
+      //Comparar o número de pontos turísticos da carta 1 e carta 2;
     printf("Resultado Número Pontos Turísticos Carta 1 > Número Pontos Turísticos Carta 2: %d\n", numerodepontosturisticos1 > numerodepontosturisticos2);
+      //Comparar a densidade populacional da carta 1 e carta 2 - lembrando que ela é inversa;
     printf("Resultado Densidade Populacional Carta 1 < Densidade Populacional Carta 2: %d\n", densidadepopulacional1 > densidadepopulacional2);
+      //Comparar o PIB per capta da carta 1 e carta 2;
     printf("Resultado PIB per capta Carta 1 > PIB per capta Carta 2: %d\n", PIBpercapta1 > PIBpercapta2);
+      //Comparar o Super Poder da carta 1 e carta 2;
     printf("Resultado Super Poder Carta 1 > Super Poder Carta 2: %d\n", SuperPoder1 > SuperPoder2);
 
 
